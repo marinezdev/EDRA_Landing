@@ -1,0 +1,384 @@
+@import 'navbarstyle.css';
+
+body {
+	width: 100%;
+	min-height:100%;
+	background-color: #fff; 
+	padding-top: 130px;
+	color: #022370;
+}
+
+.logo_encabezado {
+	margin-top: 1rem;
+}
+
+.separador {
+	margin-top: 150px; 
+	margin-bottom: 100px;
+}
+
+.separador2 {
+	margin-top: 400px; 
+	margin-bottom: 300px;
+}
+
+.justificado {
+	text-align: justify;
+}
+
+.ventanamodal {
+	z-index: 999999;
+}
+
+.listado1 {
+	list-style-image: url('../assets/img/biñeta.png');
+}
+
+#divencabezado {
+	background-color: #fff;
+	height: 70px; 
+	top:0; 
+	position:fixed; 
+	z-index:99999; 
+	/* background: rgba(4, 148, 24, 0.4); Transparencia */
+}
+
+#divmenu {
+	background-color: #fff;
+}
+
+#divlogo {
+	background-color: #fff;
+}
+
+#divpaginaweb {
+	width: 100%;
+	min-height:100%;
+}
+
+
+/*** Servicios ***/
+#servicios {
+	padding-top: 100px;
+}
+
+#divservicio1 {
+	width: 100%; 
+	height: 100%;
+	padding: 10px; 
+	background: rgba(4,148,24, 0.2); 
+	background-image: url(../assets/img/administracionweb.jpg); 
+	background-size: 100% 100%; 
+	background-position: top; 
+	background-repeat: no-repeat; 
+	padding-top: 200px;
+}
+
+#divservicio2 {
+	width: 100%; 
+	height: 100%;
+	padding: 10px; 
+	background: rgba(4,148,24, 0.2); 
+	background-image: url(../assets/img/objetivosweb.jpg); 
+	background-size: 100% 100%; 
+	background-position: top; 
+	background-repeat: no-repeat; 
+	padding-top: 200px;
+}
+
+#divservicio3 {
+	width: 100%; 
+	height: 100%;
+	padding: 10px; 
+	background: rgba(4,148,24, 0.2); 
+	background-image: url(../assets/img/serviciosaddweb.jpg); 
+	background-size: 100% 100%; 
+	background-position: top; 
+	background-repeat: no-repeat; 
+	padding-top: 200px;
+}
+
+#divservicio4 {
+	width: 100%; 
+	height: 100%;
+	padding: 10px; 
+	background: rgba(4,148,24, 0.2); 
+	background-image: url(../assets/img/funcionesweb.jpg); 
+	background-size: 100% 100%; 
+	background-position: top; 
+	background-repeat: no-repeat; 
+	padding-top: 200px;
+}
+
+
+/*** Nosotros ***/
+#nosotros {
+	padding-top: 100px;
+}
+
+#divnosotros1 {
+	width: 100%; 
+	height: 100%;
+	padding: 10px; 
+	background: rgba(4,148,24, 0.2); 
+	background-image: url(../assets/img/nosotrosweb.jpg); 
+	background-size: 100% 100%; 
+	background-position: top; 
+	background-repeat: no-repeat; 
+	padding-top: 200px;
+	margin-top: 10px;
+}
+
+#divnosotros2 {
+	width: 100%; 
+	height: 100%;
+	padding: 10px; 
+	background: rgba(4,148,24, 0.2); 
+	background-image: url(../assets/img/misionweb.jpg); 
+	background-size: 100% 100%; 
+	background-position: top; 
+	background-repeat: no-repeat; 
+	padding-top: 200px;
+	margin-top: 10px;
+}
+
+#divnosotros3 {
+	width: 100%; 
+	height: 100%;
+	padding: 10px; 
+	background: rgba(4,148,24, 0.2); 
+	background-image: url(../assets/img/visionweb.jpg); 
+	background-size: 100% 100%; 
+	background-position: top; 
+	background-repeat: no-repeat; 
+	padding-top: 200px;
+	margin-top: 10px;
+}
+
+#divnosotros4 {
+	width: 100%; 
+	height: 100%;
+	padding: 10px; 
+	background: rgba(4,148,24, 0.2); 
+	background-image: url(../assets/img/valoresweb.jpg); 
+	background-size: 100% 100%; 
+	background-position: top; 
+	background-repeat: no-repeat; 
+	padding-top: 200px;
+	margin-top: 10px;
+}
+
+#divnosotros5 {
+	width: 100%; 
+	height: 100%;
+	padding: 10px; 
+	background: rgba(4,148,24, 0.2); 
+	background-image: url(../assets/img/estructuraweb.jpg); 
+	background-size: 100% 100%; 
+	background-position: top; 
+	background-repeat: no-repeat; 
+	padding-top: 200px;
+	margin-top: 10px;
+}
+
+#divnosotros6 {
+	width: 100%; 
+	height: 100%;
+	padding: 10px; 
+	background: rgba(4,148,24, 0.2); 
+	background-image: url(../assets/img/certificadoweb.jpg); 
+	background-size: 100% 100%; 
+	background-position: top; 
+	background-repeat: no-repeat; 
+	padding-top: 200px;
+	margin-top: 10px;
+}
+
+/*** Nosotros ***/
+#limpieza {
+	padding-top: 100px;
+}
+
+#divlimpieza1 {
+	width: 100%; 
+	height: 100%;
+	padding: 10px; 
+	background: rgba(4,148,24, 0.2); 
+	background-image: url(../assets/img/limpiezaweb.jpg); 
+	background-size: 100% 100%; 
+	background-position: top; 
+	background-repeat: no-repeat; 
+	padding-top: 200px;
+	margin-top: 10px;
+}
+
+#divlimpieza2 {
+	width: 100%; 
+	height: 100%;
+	padding: 10px; 
+	background: rgba(4,148,24, 0.2); 
+	background-image: url(../assets/img/limpiezagarantiaweb.jpg); 
+	background-size: 100% 100%; 
+	background-position: top; 
+	background-repeat: no-repeat; 
+	padding-top: 200px;
+	margin-top: 10px;
+}
+
+#divlimpieza3 {
+	width: 100%; 
+	height: 100%;
+	padding: 10px; 
+	background: rgba(4,148,24, 0.2); 
+	background-image: url(../assets/img/limpiezaserviciosaddweb.jpg); 
+	background-size: 100% 100%; 
+	background-position: top; 
+	background-repeat: no-repeat; 
+	padding-top: 200px;
+	margin-top: 10px;
+}
+
+#divlimpieza4 {
+	width: 100%; 
+	height: 100%;
+	padding: 10px; 
+	background: rgba(4,148,24, 0.2); 
+	background-image: url(../assets/img/limpiezajuntosweb.jpg); 
+	background-size: 100% 100%; 
+	background-position: top; 
+	background-repeat: no-repeat; 
+	padding-top: 200px;
+	margin-top: 10px;
+}
+
+#divlimpieza5 {
+	width: 100%; 
+	height: 100%;
+	padding: 10px; 
+	background: rgba(4,148,24, 0.2); 
+	background-image: url(../assets/img/limpiezaproductosweb.jpg); 
+	background-size: 100% 100%; 
+	background-position: top; 
+	background-repeat: no-repeat; 
+	padding-top: 200px;
+	margin-top: 10px;
+}
+
+#divlimpieza6 {
+	width: 100%; 
+	height: 100%;
+	padding: 10px; 
+	background: rgba(4,148,24, 0.2); 
+	background-image: url(../assets/img/limpiezamaterialesweb.jpg); 
+	background-size: 100% 100%; 
+	background-position: top; 
+	background-repeat: no-repeat; 
+	padding-top: 200px;
+	margin-top: 10px;
+}
+
+/*** Contacto ***/
+#contacto {
+	padding-top: 100px;
+}
+
+
+/*** Footer ***/
+#divfooter {
+	background: rgba(255, 255, 255, 0.8); 
+	color: #049418; 
+	bottom: 0; 
+	position: fixed; 
+	z-index: 99999;
+}
+
+
+/*** Botón ***/
+.btn {
+	background: rgba(255, 255, 255, 0.4);
+	border-radius: 3px;
+	position: relative;
+	display: inline-block;
+	outline: none;
+	color: #022370;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(2,35,112,0.2);
+	font-size: 16px;
+	-webkit-box-shadow: 3px 3px 3px 0px rgba(4,148,24,0.75);
+	-moz-box-shadow: 3px 3px 3px 0px rgba(4,148,24,0.75);
+	box-shadow: 3px 3px 3px 0px rgba(4,148,24,0.75);
+	max-width: 100%;
+}
+
+.btn.btn-noradius {
+	border-radius: 10;
+}
+
+a.btn:focus {
+	outline: 0;
+}
+
+.btn-skin:hover, .btn-skin:focus, .btn-skin:active, .btn-skin.active {
+	/* text-transform: uppercase; */
+	color: #fff;
+	background-color: #022370;
+	border-color: #049418;
+	-webkit-box-shadow: 5px 5px 5px 0px rgba(2,35,112,0.75);
+	-moz-box-shadow: 5px 5px 5px 0px rgba(2,35,112,0.75);
+	box-shadow: 5px 5px 5px 0px rgba(2,35,112,0.75);
+	width: 95%;
+}
+
+.titulo {
+	text-align: left;
+	font:normal 36pt Arial;
+    color:#049418;
+    text-shadow: 0 1px 0 #022370,
+               0 2px 0 #022370,
+               0 3px 0 #022370,
+               0 4px 0 #022370,
+               0 5px 0 #022370,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+.titulo:hover {
+	font:normal 36pt Arial;
+    color:#fff;
+    text-shadow: 0 1px 0 #049418,
+               0 2px 0 #049418,
+               0 3px 0 #049418,
+               0 4px 0 #049418,
+               0 5px 0 #049418,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+
+}
+
+.modal-title {
+	color: #049418;
+}
+
+@media screen and (max-width:600px){
+	.separador {
+		margin-top: 50px; 
+		margin-bottom: 100px;
+	}
+
+	.separador2 {
+		margin-top: 10px; 
+		margin-bottom: 5px;
+	}
+}
